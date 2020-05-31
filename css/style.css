@@ -1,0 +1,27 @@
+/* Main Non Bootstrap CSS file for the project */
+
+.container-here{
+    margin: 5% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+
+.form-control{
+    height: 70px;
+}
+
+.container{
+    border:1px black solid;
+    padding: 50px;
+    border-radius: 2%;
+}
+
+@media (max-width:700px){
+    .container-here{
+        width: 100%;
+    }
+    .container{
+       border: none;
+    }
+}
